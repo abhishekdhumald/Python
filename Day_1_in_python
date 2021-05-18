@@ -1,0 +1,29 @@
+# printing simple message 
+message = "Hello Python World"
+print(message)
+
+message = "I'm down for learning python"
+print(message)
+
+first_name = "Abhi"
+last_name = "Dhumal"
+# 	Concatanation of strings
+full_name = first_name + " " + last_name
+print(full_name)
+print("Hello, " + full_name.title() + "!")
+
+message = "Hello, " + full_name.title() + "!"
+print(message)
+#	rstrip and lstrip functions
+fav_lang = "python "
+print(fav_lang + fav_lang)
+fav_lang.rstrip()
+print(fav_lang + fav_lang)
+
+# 	UPPERCASE and lowercase
+print(full_name.lower())
+print(full_name.upper())
+
+age = 23 
+# 	Using integer as a string : using str(variable_name) function
+print(full_name + "'s age is : "+str(age))
